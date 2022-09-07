@@ -1,17 +1,26 @@
 body{
-    background: url(img/background.png);
+    /* background: url(img/background.png); */
     background-size: cover;
     background-repeat: no-repeat;
+    
     font-family: 'Comfortaa', cursive;
-    margin: 0 auto;
+    margin: 0;
 }
-.header_top{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
 
+/* Header start */
+
+.header{
+    background-color: #c8e29d;
+}
+
+.header_top{
     
-    
+    padding: 40px 100px 100px 100px;
+    /* background: url(img/background.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .nav{
     display: flex;
@@ -36,14 +45,14 @@ body{
 .text{
     color: #fff;
     font-size: 70px; 
-    margin-left: 100px;
+    
     margin-right: 100px;
     margin-top: 150px;
     display: block;
 }
 button{
     margin-top: 40px;
-    margin-left: 100px;
+    
     background-color: #5E9387;
     color: #fff;
     border: 0px;
@@ -61,3 +70,18 @@ button{
     display: flex;
     margin-left: 1100px;
 }
+
+.header_main{
+    margin-left: 142px;
+    margin-right: 142px;
+}
+
+.main{
+    background: url(img/background.png);
+    height: 1044px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* Header End */
+
